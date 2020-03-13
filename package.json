@@ -1,0 +1,43 @@
+{
+  "name": "wordlabs",
+  "version": "1.0.0",
+  "description": "A public-facing Scribr booking app.",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://seanwarman@bitbucket.org/biggmediadevelopmentteam/wordlabs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/biggmediadevelopmentteam/wordlabs#readme",
+  "dependencies": {
+    "@seanwarman/json-form-builder": "0.0.3",
+    "antd": "^3.25.0",
+    "aws-amplify": "^1.2.4",
+    "aws-amplify-react": "^2.5.4",
+    "moment": "^2.24.0",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "^3.2.0",
+    "typescript": "^3.6.4"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
